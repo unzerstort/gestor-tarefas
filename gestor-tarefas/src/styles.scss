@@ -42,8 +42,14 @@ $gestor-tarefas-theme: mat.define-theme((color: (theme-type: light,
 
 // Define the theme object.
 $gestor-tarefas-theme: mat.define-theme((color: (theme-type: light,
-        primary: mat.$azure-palette,
-        tertiary: mat.$blue-palette,
+        primary: mat.$violet-palette,
+      ),
+      typography: (
+        brand-family: 'Plus Jakarta Sans',
+        plain-family: 'Plus Jakarta Sans',
+        regular-weight: 400,
+        medium-weight: 500, 
+        bold-weight: 700,
       ),
       density: (scale: 0,
       )));
