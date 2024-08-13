@@ -28,10 +28,19 @@
     justify-content: space-between;
 }
 
-.mdc-card {
+.space-around {
+    justify-content: space-around;
+}
+
+.flex.space-around .mdc-card {
     border: none;
     border-radius: 8px;
-    width: 30%;
+    width: 20%;
+}
+
+.mdc-card {
+    border: none;
+    width: 95%;
 }
 
 .mat-mdc-card-content {
