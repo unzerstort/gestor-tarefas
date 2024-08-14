@@ -2,7 +2,7 @@
 
 Este projeto consiste em uma aplicação de gerenciamento feita com base no design fornecido, contando principalmente com um dashboard que exibe ao usuário o andamento e completude de tarefas.
 
-Os itens implementados foram: a), c) e g).
+Os itens implementados foram: a) e c) 
 
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 18.1.3.
 
