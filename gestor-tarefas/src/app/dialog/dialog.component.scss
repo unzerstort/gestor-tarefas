@@ -1,0 +1,38 @@
+.mdc-button {
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    height: 52px;
+}
+
+.mdc-button.new-task {
+    vertical-align: middle;
+    background-color: #6261B4;
+    color: #F5F5F5;
+}
+
+.mdc-button.cancel {
+    color: #263238;
+    background-color:#B880EF33;
+}
+
+.mdc-icon-button.close {
+    color: #263238;
+
+}
+
+.mat-mdc-unelevated-button>.mat-icon {
+    font-size: 1.280rem;
+}
+
+.mat-icon {
+    font-size: 1.280rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.center {
+    justify-content: center;
+}

@@ -9,15 +9,7 @@
 
 .page-subheader {
     font-size: 18px;
-    margin: 0 0 30px 0 ;
-}
-
-.mdc-button {
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 800;
-    height: 52px;
-    vertical-align: middle;
+    margin: 0 0 30px 0;
 }
 
 .flex {
@@ -26,6 +18,10 @@
 
 .justify-between {
     justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .space-around {
@@ -48,13 +44,14 @@
 }
 
 .card-content {
-    margin: 40px 30px 40px 30px;
+    margin: 25px 30px 40px 30px;
 }
 
 .card-title {
     font-size: 34px;
     font-weight: 800;
     margin: 0;
+    width: min-content;
 }
 
 .card-subtitle {
@@ -63,6 +60,54 @@
     margin: 0;
 }
 
-.mat-mdc-unelevated-button > .mat-icon {
-    font-size: 1.200rem;
+.card-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 72px;
+    border-radius: 10px;
+}
+
+.card-icon-box.to-do {
+    background-color: #B5E4FF4D;
+}
+
+.card-icon-box.doing {
+    background-color: #B880EF33;
+}
+
+.card-icon-box.done {
+    background-color: #B5FFE04D;
+}
+
+.grid {
+    display: grid;
+}
+
+.card-columns {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.card-content.grid {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.task-subtitle {
+    font-size: 12px;
+    padding: 0;
+    margin-bottom: 0;
+    height: min-content;
+    position: relative;
+    right: 23px;
+    bottom: -10px;
+}
+
+.mat-badge-content.mat-badge-active {
+    background-color: #FF1414;
+    position: relative;
+    top: -25px;
+    left: 0px;
+    height: 10px;
+    width: 10px;
 }

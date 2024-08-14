@@ -13,6 +13,7 @@
   justify-content: center;
   background-color: #5554AA;
   color: white;
+  font-size: 18px;
 }
 
 .mat-toolbar.mat-primary {
@@ -26,6 +27,7 @@
   left: 16px;
   gap: 8px;
   opacity: 0px;
+  border-radius: 10px;
 }
 
 .mat-drawer {
@@ -33,3 +35,7 @@
   border-bottom-right-radius: 0px;
 }
 
+.mat-list-item.list-item {
+  font-weight: 800;
+  font-size: 18px;
+}

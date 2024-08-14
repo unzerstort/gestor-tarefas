@@ -1,0 +1,18 @@
+<div mat-dialog-title class="flex center">
+    Criar Tarefa
+    <button mat-icon-button mat-dialog-close class="close">
+        <mat-icon>cancel</mat-icon>
+    </button>
+</div>
+<mat-dialog-content class="mat-typography">
+    <mat-form-field>
+        <app-form></app-form>
+    </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+    <button mat-flat-button mat-dialog-close class="cancel">Cancelar</button>
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial class="new-task">
+        <mat-icon aria-hidden="false" aria-label="Add box icon">add_box</mat-icon>
+        Criar Tarefa
+    </button>
+</mat-dialog-actions>
